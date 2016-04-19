@@ -13,7 +13,7 @@ namespace UnityGameObject
         public static void Load()
         {
             load_object = new GameObject();
-            load_object.AddComponent<Menu>();
+            load_object.AddComponent<Main>();
             UnityEngine.Object.DontDestroyOnLoad(load_object);
         }
     }
